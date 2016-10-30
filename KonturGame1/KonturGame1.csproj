@@ -43,8 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AbstractGame.cs" />
     <Compile Include="IGame.cs" />
+    <Compile Include="ImmutableGame.cs" />
     <Compile Include="Location.cs" />
+    <Compile Include="MemoryGame.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SimpleGame.cs" />

@@ -17,10 +17,5 @@ namespace KonturGame1
             this.x = x;
             this.y = y;
         }
-        public void SetLocation(int x,int y)
-        {
-            this.x = x;
-            this.y = y;
-        }
     }
 }

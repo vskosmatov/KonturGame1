@@ -11,6 +11,6 @@ namespace KonturGame1
         int this[int x, int y] { get; }
         int this[Location location] { get; }
         Location GetLocation(int value);
-        void Shift(int value);
+        IGame Shift(int value);
     }
 }

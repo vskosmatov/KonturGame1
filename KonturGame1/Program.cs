@@ -10,9 +10,9 @@ namespace KonturGame1
     {
         static void Main(string[] args)
         {
-            SimpleGame g = new SimpleGame(1, 2, 3, 3, 5, 6, 7, 8, 0);
+            SimpleGame g = new SimpleGame(2, 1, 3, 4, 5, 6, 7, 8, 0);
             g.Shift(8);
-            g.Shift(5);
+            //g.Shift(5);
             for (int i = 0; i < 3; i++)
             {
                 for (int j = 0; j < 3; j++)
