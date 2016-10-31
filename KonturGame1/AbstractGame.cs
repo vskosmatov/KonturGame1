@@ -37,7 +37,7 @@ namespace KonturGame1
                     values[chips[count++]] = new Location(i, j);
                 }
         }
-        public virtual int this[Location location]
+        public int this[Location location]
         {
             get
             {
@@ -45,7 +45,7 @@ namespace KonturGame1
             }
         }
 
-        public int this[int x, int y]
+        public virtual int this[int x, int y]
         {
             get
             {

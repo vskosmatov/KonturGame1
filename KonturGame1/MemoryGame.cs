@@ -9,12 +9,14 @@ namespace KonturGame1
     class MemoryGame//:IGame
     {
         private ImmutableGame BaseGame;
+        private Dictionary<int, int> Memory;
+
 
         public int this[Location location]
         {
             get
             {
-                throw new NotImplementedException();
+                return this[location.x, location.y];
             }
         }
 
