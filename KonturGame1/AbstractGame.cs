@@ -18,6 +18,8 @@ namespace KonturGame1
                 throw new ArgumentException("chips cannot be empty!");
             if (!chips.Contains(0))
                 throw new ArgumentException("chips must contain 0!");
+            if (chips.Any((chip) =>  chip < 0))
+                throw new ArgumentException("chips cannot be negative!");
 
             HashSet<int> Set_chips = new HashSet<int>(chips);
             if (Set_chips.Count != chips.Length)
